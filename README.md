@@ -29,7 +29,7 @@ Car Rent is a front-end web project that provides a modern and user-friendly int
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/car-rent.git
+git clone https://github.com/Elyas-Bahim/Car-Rental-Project.git
 ```
 
 2. Open the project folder.
