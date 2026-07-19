@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Rent</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Cars <span>Rent</span></h1>
+        <div class="header__nav-auth">
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#comments">Comments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__auth">
+        <button class="btn_secondary">Create an Account</button>
+        <button class="btn_primary">Login</button>
+        </div>
+    </div>
+    <div class="header__menu">
+        <i class="bxr  bx-menu-close"  ></i> 
+        <i class="bxr  bx-x"  ></i> 
+    </div>
+    </header>
+    <main>
+        <section class="home section-menu" id="home">
+            <div class="home__content">
+                <h1 class="home__title">
+                    <span>The Car You Need,</span>
+                    Rent When You Needed
+                </h1>
+                <p class="home__desc">
+                    Our rental service with high variety and reasonable
+                    prices is ready to serve you</p><p>.Luxury, economical and
+                    SUV cars with special conditions
+                </p>
+                 <button class="btn_primary">Discover
+                 <i class="bxr  bx-arrow-left-stroke"  ></i>
+                 </button>
+                <form action="" class="home__search-car">
+                    <div class="text-input">
+                        <label for="loction">Place Of Delivery</label>
+                        <input type="text"
+                         id="loction" 
+                         placeholder="Day/Month/Year"
+                         />
+                    </div>
+                         <div class="text-input">
+                        <label for="pickup">Delivery Date</label>
+                        <input type="text"
+                         id="pickup" 
+                         placeholder="Day/Month/Year"
+                         />
+                    </div>
+                    
+                    <div class="text-input">
+                        <label for="return-date">Return Date</label>
+                        <input type="text" 
+                        id="return-date" 
+                        placeholder="Day/Month/Year"
+                        />
+                    </div>
+                    <button class="btn_primary">Search <i class='bxr  bx-search'  ></i> </button>
+                    </form>
+            </div>
+            <div class="home__rectangle"></div>
+            <img src="images/Screenshot (37).png" alt="car" class="home__img">
+            </section>
+
+        <section class="cars section-menu" id="cars">
+            <h1 class="title-section">
+                Our Last
+                <span>Cars</span>
+            </h1>
+            <p class="desc-section">
+                A collection of the best cars in the world with excellent conditions and maintenance and
+                 reasonable prices for short-term and long-term rental
+            </p>
+            <div class="cars__list-btn">
+                <button class="btn_primary" data-brand="all">All</button>
+                <button class="btn_secondary" data-brand="toyota">TOYOTA</button>
+                <button class="btn_secondary" data-brand="lexus">LEXUS</button>
+                <button class="btn_secondary" data-brand="benz">Mersedez-Benz</button>
+                <button class="btn_secondary" data-brand="land-rover">Land Rover</button>
+            </div>
+            <div class="cars__list-card">
+                <div class="cars__card" data-brand="toyota">
+                    <img src="images/Screenshot (8).png" alt="toyota" class="cars__card-car-img">
+                    <h1>Toyota Land Cruiser 2016</h1>
+                    <div class="cars__card-info">
+                        <div class="cars__info-item">
+                            <i class="bxr bx-chair"></i>
+                            <span>7 Seats</span>
+                        </div>
+                        <div class="cars__info-item">
+                            <i class="bxr bx-tachometer"></i>
+                            <span>2000 KM</span>
+                        </div>
+                    </div>
+                    <div class="cars__card-price-rent">
+                        <h3 class="cars__price">100$
+                        <span>Dollor/Day</span>
+                    </h3>
+                    <button class="btn_primary">Rent Now
+                    <i class="bxr bx-plus"></i>
+                </button>
+                    </div>
+                </div>
+                <div class="cars__card" data-brand="lexus">
+                    <img src="images/Screenshot (47).png" alt="lexus" class="cars__card-car-img">
+                    <h1>LEXUS LX 570 2021</h1>
+                    <div class="cars__card-info">
+                        <div class="cars__info-item">
+                            <i class="bxr bx-chair"></i>
+                            <span>7 Seats</span>
+                        </div>
+                        <div class="cars__info-item">
+                            <i class="bxr bx-tachometer"></i>
+                            <span>5000 KM</span>
+                        </div>
+                    </div>
+                    <div class="cars__card-price-rent">
+                        <h3 class="cars__price">300$
+                        <span>Dollor/Day</span>
+                    </h3>
+                    <button class="btn_primary">Rent Now
+                    <i class="bxr bx-plus"></i>
+                </button>
+                    </div>
+                </div>
+                <div class="cars__card" data-brand="benz">
+                    <img src="images/Screenshot (29).png" alt="benz" class="cars__card-car-img">
+                    <h1>Mersedez-Benz CLS 63 2017</h1>
+                    <div class="cars__card-info">
+                        <div class="cars__info-item">
+                            <i class="bxr bx-chair"></i>
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="cars__info-item">
+                            <i class="bxr bx-tachometer"></i>
+                            <span>10000 KM</span>
+                        </div>
+                    </div>
+                    <div class="cars__card-price-rent">
+                        <h3 class="cars__price">500$
+                        <span>Dollor/Day</span>
+                    </h3>
+                    <button class="btn_primary">Rent Now
+                    <i class="bxr bx-plus"></i>
+                </button>
+                    </div>
+                </div>
+                <div class="cars__card" data-brand="land-rover">
+                    <img src="images/Screenshot (44).png" alt="land-rover" class="cars__card-car-img">
+                    <h1>Land Rover Range Rover 2023</h1>
+                    <div class="cars__card-info">
+                        <div class="cars__info-item">
+                            <i class="bxr bx-chair"></i>
+                            <span>7 Seats</span>
+                        </div>
+                        <div class="cars__info-item">
+                            <i class="bxr bx-tachometer"></i>
+                            <span>500 KM</span>
+                        </div>
+                    </div>
+                    <div class="cars__card-price-rent">
+                        <h3 class="cars__price">1000$
+                        <span>Dollor/Day</span>
+                    </h3>
+                    <button class="btn_primary">Rent Now
+                    <i class="bxr bx-plus"></i>
+                </button>
+                    </div>
+                </div>
+                    <div class="cars__card" data-brand="lexus">
+                        <img src="images/Screenshot (45).png" alt="lexus" class="cars__card-car-img">
+                        <h1>LEXUS LX 600 Fsport 2022</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>7 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>200 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">2000$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="cars__card" data-brand="lexus">
+                        <img src="images/Screenshot (48).png" alt="lexus" class="cars__card-car-img">
+                        <h1>Lexus IS 250 Fsprot 2014</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>5 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>200000 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">250$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="cars__card" data-brand="toyota">
+                        <img src="images/Screenshot (15).png" alt="toyota" class="cars__card-car-img">
+                        <h1>Toyota Corolla 2018</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>5 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>7000 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">50$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="cars__card" data-brand="toyota">
+                        <img src="images/Screenshot (19).png" alt="toyota" class="cars__card-car-img">
+                        <h1>Toyota 4Runner 2021</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>7 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>4000 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">600$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="cars__card" data-brand="toyota">
+                        <img src="images/Screenshot (14).png" alt="toyota" class="cars__card-car-img">
+                        <h1>Toyota Corolla 2013</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>5 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>150000 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">100$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                    <div class="cars__card" data-brand="toyota">
+                        <img src="images/Screenshot (21).png" alt="toyota" class="cars__card-car-img">
+                        <h1>Toyota 4Runner 2008</h1>
+                        <div class="cars__card-info">
+                            <div class="cars__info-item">
+                                <i class="bxr bx-chair"></i>
+                                <span>7 Seats</span>
+                            </div>
+                            <div class="cars__info-item">
+                                <i class="bxr bx-tachometer"></i>
+                                <span>300000 KM</span>
+                            </div>
+                        </div>
+                        <div class="cars__card-price-rent">
+                            <h3 class="cars__price">230$
+                            <span>Dollor/Day</span>
+                        </h3>
+                        <button class="btn_primary">Rent Now
+                        <i class="bxr bx-plus"></i>
+                    </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section class="about section-menu" id="about">
+            <img src="images/Screenshot (51).png" alt="white car" class="about__img-car"/>
+            <div class="about__circle"></div>
+            <div class="about__content">
+                <h1 class="title-section about__title">?Why Choose Us</h1>
+                <p class="desc-section about__desc">
+                    .With year experience in car rental. We provide you
+                    with the best service with the highest standards
+                </p>
+                <div class="about__list-info">
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bx-star"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h2>High variety of quality cars</h2>
+                            <p>.More than 50 models of cars from economy to 
+                                luxury have prepared for your choice
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bx-star"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h2>High variety of quality cars</h2>
+                            <p>.More than 50 models of cars from economy to 
+                                luxury have prepared for your choice
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bx-star"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h2>High variety of quality cars</h2>
+                            <p>.More than 50 models of cars from economy to 
+                                luxury have prepared for your choice
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comments section-menu" id="comments">
+            <h1 class="title-section">Our customers
+                <span>Comments</span>
+            </h1>
+            <p class="desc-section">Read our customers' real experience of our car rental services</p>
+            <div class="comments__list-cards">
+                <div class="comments__card">
+                    <div class="comments__cards-img">
+                        <img src="images/Screenshot (52)1.png" alt="user">
+                    </div>
+                    <h2 class="comments__card-name">Hamond</h2>
+                    <div class="comments__card-rate">
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <span>5.0</span>
+                    </div>
+                    <p>I had a very good experience with renting a car from this company the car was completely clean and healthy and had excellent support</p>
+
+                </div>
+                <div class="comments__card">
+                    <div class="comments__cards-img">
+                        <img src="images/Screenshot (52)2.png" alt="user">
+                    </div>
+                    <h2 class="comments__card-name">Jereme</h2>
+                    <div class="comments__card-rate">
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <span>5.0</span>
+                    </div>
+                    <p>I had a very good experience with renting a car from this company the car was completely clean and healthy and had excellent support</p>
+                    
+                </div>
+                <div class="comments__card">
+                    <div class="comments__cards-img">
+                        <img src="images/Screenshot (52)3.png" alt="user">
+                    </div>
+                    <h2 class="comments__card-name">James</h2>
+                    <div class="comments__card-rate">
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <i class="bxr  bxs-star"  ></i> 
+                        <span>5.0</span>
+                    </div>
+                    <p>I had a very good experience with renting a car from this company the car was completely clean and healthy and had excellent support</p>
+                    
+                </div>
+            </div>
+        </section>
+         <section class="contact section-menu" id="contact">
+            <h1 class="title-section contact-title">Contact Us</h1>
+            <p class="desc-section contact-desc">For any questions or criticisms, You can contact us through the form below</p>
+            <div class="contact__content">
+                <form action="" class="contact__form">
+                    <div class="text-input">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Name">
+
+                    </div>
+                    <div class="text-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@gamil.com">
+
+                    </div>
+                    <div class="text-input">
+                        <label for="messege">Messege</label>
+                        <textarea id="messege" placeholder="Messege Us"></textarea>
+                    </div>
+                    <button class="btn_primary" type="submit">Send</button>
+                </form>
+                <div class="contact__list-info">
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bxs-location-alt-2"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h3>Address</h3>
+                            <p>
+                                Afghanistan, Kabul, Sharnow , Ansari Road
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bxs-location-alt-2"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h3>Address</h3>
+                            <p>
+                                Afghanistan, Kabul, Sharnow , Ansari Road
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-info-icon">
+                            <i class="bxr  bxs-location-alt-2"  ></i> 
+                        </div>
+                        <div class="card-info-text">
+                            <h3>Address</h3>
+                            <p>
+                                Afghanistan, Kabul, Sharnow , Ansari Road
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__content  section-menu">
+                    <div>
+                    <h1>Rent Car</h1>
+                    <p>With the best car rental services in Afghanistan with more than 15 year of brilliant experience and thousand of satisfied customers</p>
+                    </div>
+                
+                    <div class="footer__menu">
+                        <span class="footer__menu-title">Menu</span>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cars">Cars</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#comments">Comments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                    </div>
+                
+                    <div class="footer__menu">
+                        <span class="footer__menu-title">Follow Us</span>
+                           <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+                    </div>
+                    </div>
+                <div class="footer__divider"></div>
+                <p class="footer__copyright">Copyright &copy; Rent Car Elyas Ahmad Baheen 2025 </p>
+                
+            </footer>
+    </main>
+                   
+     <script src="main.js" ></script>
+      <script>
+        ScrollReveal({
+        delay: 200,
+         distance: '60px',
+         duration: 2000,
+         }); 
+         ScrollReveal().reveal('.home__title');
+         ScrollReveal().reveal('.home__desc', {
+            delay: 400,
+         });
+         ScrollReveal().reveal('.title-section');
+         ScrollReveal().reveal('.desc-section', {
+            delay: 400,
+         });
+         ScrollReveal().reveal('.home__content .btn-primary', {
+            delay: 600,
+         });
+         ScrollReveal().reveal('.home__search-car', {
+            delay: 800,
+            origin:"right",
+         });
+         ScrollReveal().reveal('.home__img', {
+            delay: 200,
+            origin:"left",
+            duration: 2500,
+        });
+         ScrollReveal().reveal('.cars__list-btn button', {
+            delay: 400,
+            interval: 300,
+        });
+        ScrollReveal().reveal('.cars__list-card .cars__card', {
+            delay: 1000,
+            interval: 300,
+        });
+         ScrollReveal().reveal('.about__img-car', {
+            delay: 200,
+            origin:"right",
+            duration: 2500,
+        });
+        ScrollReveal().reveal('.about__list-info .card-info', {
+            delay: 200,
+        });
+        ScrollReveal().reveal('.comments__list-card .comments__card', {
+            delay: 600,
+            interval: 300,
+        });
+        ScrollReveal().reveal('.contact__form .text-input', {
+            delay: 1000,
+            interval: 300,
+        });
+        ScrollReveal().reveal('.contact__form .btn-primary', {
+            delay: 800,
+         });
+          ScrollReveal().reveal('.contact__list-info .card-info', {
+            delay: 600,
+            interval: 300,
+        });
+    </script>
+</body>
+</html>
